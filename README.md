@@ -1,9 +1,9 @@
 
-# Angular8 Application
-###### version 8.3.22.
+# Angular11 Application
+###### version 11.1.0
 
 ## About the architecture
-	*Angular 8
+	*Angular 10
 	*Angular CLI
 	*Angular Material
 	
@@ -21,7 +21,7 @@ Okay, now we have our module bundler. This usually installs the module under you
 An alias should not be necessary by default, but if you need it you can execute the next line:
 	alias ng="<UserFolder>/.npm/lib/node_modules/angular-cli/bin/ng"
 
-The next step is to create the new project. I will call it angular8-app. 
+The next step is to create the new project. I will call it angular11-app. 
 First, we navigate to the folder under which we want to create the site, and then:
 	ng new angular8-app  
 	
@@ -30,7 +30,7 @@ First, we navigate to the folder under which we want to create the site, and the
 While you can test your new website just running ng serve --open,I do recommend testing 
 the site from your favorite web service.Why? Well, some issues can happen only in production, 
 and building the site with ng build is the closest way to approach this environment. 
-Then we can open the folder angular8-app with Visual Studio Code and run ng build on the terminal bash:
+Then we can open the folder angular11-app with Visual Studio Code and run ng build on the terminal bash:
 ![code-terminal](https://user-images.githubusercontent.com/59535094/73367579-ee34de00-42d9-11ea-91db-684ca56cc292.png)
 
 A new folder called dist will be created and we can serve it using IIS or whichever web server you prefer.
