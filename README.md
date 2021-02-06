@@ -1,5 +1,5 @@
 
-# Angular8 Application
+# Angular11 Application
 ###### version 11.1.0
 
 ## About the architecture
